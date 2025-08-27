@@ -1,0 +1,4 @@
+contractSymbol,lastTradeDate,strike,lastPrice,bid,ask,change,percentChange,volume,openInterest,impliedVolatility,inTheMoney,contractSize,currency,option_type,symbol,timestamp,expiration,total_premium,moneyness,high_premium,high_volume_ratio,potential_block,unusual_activity
+ASST250829C00001000,2025-08-26 16:19:18+00:00,1.0,4.7,0.0,0.0,0.0,0.0,110.0,0.0,1.0000000000000003e-05,1.0,REGULAR,USD,call,ASST,2025-08-27 09:12:27.343420,2025-08-29,51700.0,ITM,True,True,True,True
+ASST250829C00004000,2025-08-26 15:20:34+00:00,4.0,1.8,0.0,0.0,0.0,0.0,1.0,0.0,1.0000000000000003e-05,1.0,REGULAR,USD,call,ASST,2025-08-27 09:12:27.343420,2025-08-29,180.0,ITM,False,True,False,True
+ASST250829C00005000,2025-08-26 19:56:21+00:00,5.0,0.7,0.0,0.0,0.0,0.0,353.0,368.0,1.0000000000000003e-05,1.0,REGULAR,USD,call,ASST,2025-08-27 09:12:27.343420,2025-08-29,24710.0,ITM,False,True,False,True

@@ -8,3 +8,537 @@
 2025-08-26 22:29:47,387 - data_collector - INFO - Successfully retrieved 85 options contracts for CMG
 2025-08-26 22:29:47,392 - data_collector - INFO - Analysis complete for CMG: 33 unusual activities found
 2025-08-26 22:29:47,402 - data_collector - INFO - Data saved to data\cmg_analysis_20250826_222947.csv
+2025-08-26 23:05:25,497 - data_collector - INFO - Current price for OPEN: $4.68
+2025-08-26 23:05:25,498 - data_collector - INFO - Fetching options data for OPEN
+2025-08-26 23:05:25,650 - data_collector - INFO - Successfully retrieved 38 options contracts for OPEN
+2025-08-26 23:05:25,656 - data_collector - INFO - Analysis complete for OPEN: 28 unusual activities found
+2025-08-26 23:05:25,669 - data_collector - INFO - Data saved to data\open_analysis_20250826_230525.csv
+2025-08-27 09:12:27,146 - data_collector - INFO - Current price for ASST: $5.58
+2025-08-27 09:12:27,147 - data_collector - INFO - Fetching options data for ASST
+2025-08-27 09:12:27,344 - data_collector - INFO - Successfully retrieved 3 options contracts for ASST
+2025-08-27 09:12:27,347 - data_collector - INFO - Analysis complete for ASST: 3 unusual activities found
+2025-08-27 09:12:27,358 - data_collector - INFO - Data saved to data\asst_analysis_20250827_091227.csv
+2025-08-27 09:20:27,642 - yfinance - ERROR - HTTP Error 404: 
+2025-08-27 09:20:28,145 - yfinance - ERROR - $AYTR: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2025-08-27 09:20:28,147 - data_collector - INFO - Fetching options data for AYTR
+2025-08-27 09:20:28,229 - data_collector - WARNING - No options available for AYTR
+2025-08-27 11:51:39,948 - data_collector - INFO - Current price for MSFT: $504.28
+2025-08-27 11:51:39,949 - data_collector - INFO - Fetching options data for MSFT
+2025-08-27 11:51:40,177 - data_collector - INFO - Successfully retrieved 180 options contracts for MSFT
+2025-08-27 11:51:40,185 - data_collector - INFO - Analysis complete for MSFT: 73 unusual activities found
+2025-08-27 11:51:40,214 - data_collector - INFO - Data saved to data\msft_analysis_20250827_115140.csv
+2025-08-27 11:57:57,183 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 11:57:57,186 [DEBUG] peewee:3319: execute_sql() ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2025-08-27 11:57:57,187 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['AAPL', 1, 0])
+2025-08-27 11:57:57,267 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 11:57:57,268 [DEBUG] yfinance:196: history() AAPL: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 11:57:57,268 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 11:57:57,268 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 11:57:57,268 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/AAPL
+2025-08-27 11:57:57,268 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 11:57:57,268 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 11:57:57,268 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 11:57:57,268 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 11:57:57,268 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 11:57:57,269 [DEBUG] yfinance:89: wrapper()        Entering _load_cookie_curlCffi()
+2025-08-27 11:57:57,271 [DEBUG] peewee:3319: execute_sql() ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2025-08-27 11:57:57,272 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2025-08-27 11:57:57,272 [DEBUG] yfinance:94: wrapper()        Exiting _load_cookie_curlCffi()
+2025-08-27 11:57:57,272 [DEBUG] yfinance:190: _get_cookie_basic() reusing persistent cookie
+2025-08-27 11:57:57,272 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 11:57:57,272 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 11:57:57,273 [DEBUG] yfinance:89: wrapper()        Entering _get_cookie_basic()
+2025-08-27 11:57:57,273 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 11:57:57,273 [DEBUG] yfinance:94: wrapper()        Exiting _get_cookie_basic()
+2025-08-27 11:57:57,520 [DEBUG] yfinance:234: _get_crumb_basic() crumb = 'VyQotnM8f1F'
+2025-08-27 11:57:57,520 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 11:57:57,520 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 11:57:57,520 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 11:57:57,990 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 11:57:57,990 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 11:57:57,990 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 11:57:57,994 [DEBUG] yfinance:312: history() AAPL: yfinance received OHLC data: 2025-08-27 13:30:00 -> 2025-08-27 15:57:55
+2025-08-27 11:57:58,006 [DEBUG] yfinance:349: history() AAPL: OHLC after cleaning: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:57:55-04:00
+2025-08-27 11:57:58,010 [DEBUG] yfinance:437: history() AAPL: OHLC after combining events: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:57:55-04:00
+2025-08-27 11:57:58,018 [DEBUG] yfinance:517: history() AAPL: yfinance returning OHLC: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:55:00-04:00
+2025-08-27 11:57:58,018 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 11:57:58,018 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 11:57:58,018 [INFO] data_collector:107: get_stock_price() Current price for AAPL: $229.85
+2025-08-27 11:57:58,018 [INFO] data_collector:49: get_options_chain() Fetching options data for AAPL
+2025-08-27 11:57:58,018 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/AAPL
+2025-08-27 11:57:58,019 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 11:57:58,019 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 11:57:58,019 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 11:57:58,019 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 11:57:58,019 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 11:57:58,019 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 11:57:58,132 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 11:57:58,133 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 11:57:58,133 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 11:57:58,134 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 11:57:58,134 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 11:57:58,134 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/AAPL?date=1756425600
+2025-08-27 11:57:58,134 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 11:57:58,134 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 11:57:58,134 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 11:57:58,135 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 11:57:58,135 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 11:57:58,135 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 11:57:58,135 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 11:57:58,407 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 11:57:58,407 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 11:57:58,407 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 11:57:58,439 [INFO] data_collector:93: get_options_chain() Successfully retrieved 103 options contracts for AAPL
+2025-08-27 11:57:58,444 [INFO] data_collector:198: get_full_analysis() Analysis complete for AAPL: 40 unusual activities found
+2025-08-27 11:58:04,588 [ERROR] __main__:696: launch_dashboard() Dashboard launch error: The `dash_table.DataTable` component (version 3.2.0) with the ID "flow-table" received an unexpected keyword argument: `className`
+Allowed arguments: active_cell, cell_selectable, column_selectable, columns, css, data, data_previous, data_timestamp, derived_filter_query_structure, derived_viewport_data, derived_viewport_indices, derived_viewport_row_ids, derived_viewport_selected_columns, derived_viewport_selected_row_ids, derived_viewport_selected_rows, derived_virtual_data, derived_virtual_indices, derived_virtual_row_ids, derived_virtual_selected_row_ids, derived_virtual_selected_rows, dropdown, dropdown_conditional, dropdown_data, editable, end_cell, export_columns, export_format, export_headers, fill_width, filter_action, filter_options, filter_query, fixed_columns, fixed_rows, hidden_columns, id, include_headers_on_copy_paste, is_focused, loading_state, locale_format, markdown_options, merge_duplicate_headers, page_action, page_count, page_current, page_size, persisted_props, persistence, persistence_type, row_deletable, row_selectable, selected_cells, selected_columns, selected_row_ids, selected_rows, sort_action, sort_as_null, sort_by, sort_mode, start_cell, style_as_list_view, style_cell, style_cell_conditional, style_data, style_data_conditional, style_filter, style_filter_conditional, style_header, style_header_conditional, style_table, tooltip, tooltip_conditional, tooltip_data, tooltip_delay, tooltip_duration, tooltip_header, virtualization
+2025-08-27 11:59:36,215 [ERROR] __main__:696: launch_dashboard() Dashboard launch error: The `dash_table.DataTable` component (version 3.2.0) with the ID "flow-table" received an unexpected keyword argument: `className`
+Allowed arguments: active_cell, cell_selectable, column_selectable, columns, css, data, data_previous, data_timestamp, derived_filter_query_structure, derived_viewport_data, derived_viewport_indices, derived_viewport_row_ids, derived_viewport_selected_columns, derived_viewport_selected_row_ids, derived_viewport_selected_rows, derived_virtual_data, derived_virtual_indices, derived_virtual_row_ids, derived_virtual_selected_row_ids, derived_virtual_selected_rows, dropdown, dropdown_conditional, dropdown_data, editable, end_cell, export_columns, export_format, export_headers, fill_width, filter_action, filter_options, filter_query, fixed_columns, fixed_rows, hidden_columns, id, include_headers_on_copy_paste, is_focused, loading_state, locale_format, markdown_options, merge_duplicate_headers, page_action, page_count, page_current, page_size, persisted_props, persistence, persistence_type, row_deletable, row_selectable, selected_cells, selected_columns, selected_row_ids, selected_rows, sort_action, sort_as_null, sort_by, sort_mode, start_cell, style_as_list_view, style_cell, style_cell_conditional, style_data, style_data_conditional, style_filter, style_filter_conditional, style_header, style_header_conditional, style_table, tooltip, tooltip_conditional, tooltip_data, tooltip_delay, tooltip_duration, tooltip_header, virtualization
+2025-08-27 12:00:01,018 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 12:00:01,021 [DEBUG] peewee:3319: execute_sql() ('CREATE TABLE IF NOT EXISTS "_tz_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2025-08-27 12:00:01,022 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['SPY', 1, 0])
+2025-08-27 12:00:01,023 [DEBUG] yfinance:89: wrapper()  Entering _fetch_ticker_tz()
+2025-08-27 12:00:01,023 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:01,023 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:01,023 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/SPY
+2025-08-27 12:00:01,023 [DEBUG] yfinance:384: _make_request() params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-08-27 12:00:01,023 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:01,024 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:01,024 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,024 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:01,024 [DEBUG] yfinance:89: wrapper()        Entering _load_cookie_curlCffi()
+2025-08-27 12:00:01,035 [DEBUG] peewee:3319: execute_sql() ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2025-08-27 12:00:01,036 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['curlCffi', 1, 0])
+2025-08-27 12:00:01,037 [DEBUG] yfinance:94: wrapper()        Exiting _load_cookie_curlCffi()
+2025-08-27 12:00:01,037 [DEBUG] yfinance:190: _get_cookie_basic() reusing persistent cookie
+2025-08-27 12:00:01,037 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:01,037 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:01,037 [DEBUG] yfinance:89: wrapper()        Entering _get_cookie_basic()
+2025-08-27 12:00:01,037 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:01,037 [DEBUG] yfinance:94: wrapper()        Exiting _get_cookie_basic()
+2025-08-27 12:00:01,220 [DEBUG] yfinance:234: _get_crumb_basic() crumb = 'VyQotnM8f1F'
+2025-08-27 12:00:01,221 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:01,221 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,221 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:01,422 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:01,423 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:01,423 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:01,423 [DEBUG] yfinance:94: wrapper()  Exiting _fetch_ticker_tz()
+2025-08-27 12:00:01,482 [DEBUG] peewee:3319: execute_sql() ('BEGIN', None)
+2025-08-27 12:00:01,483 [DEBUG] peewee:3319: execute_sql() ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['SPY', 'America/New_York'])
+2025-08-27 12:00:01,497 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:196: history() SPY: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:01,498 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/SPY
+2025-08-27 12:00:01,498 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:01,498 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:01,498 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:01,498 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:01,499 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:01,499 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:01,499 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:01,499 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:01,499 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,499 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:01,583 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:01,583 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:01,584 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:01,587 [DEBUG] yfinance:312: history() SPY: yfinance received OHLC data: 2025-08-27 13:30:00 -> 2025-08-27 16:00:00
+2025-08-27 12:00:01,605 [DEBUG] yfinance:349: history() SPY: OHLC after cleaning: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:01,608 [DEBUG] yfinance:437: history() SPY: OHLC after combining events: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:01,614 [DEBUG] yfinance:517: history() SPY: yfinance returning OHLC: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:01,614 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 12:00:01,614 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 12:00:01,614 [INFO] data_collector:107: get_stock_price() Current price for SPY: $646.54
+2025-08-27 12:00:01,615 [INFO] data_collector:49: get_options_chain() Fetching options data for SPY
+2025-08-27 12:00:01,616 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:01,616 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:01,616 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/SPY
+2025-08-27 12:00:01,616 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:01,616 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:01,616 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:01,616 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,616 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:01,616 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:01,616 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:01,617 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:01,617 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:01,617 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:01,617 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,617 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:01,723 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:01,723 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:01,723 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:01,725 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:01,725 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:01,725 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/SPY?date=1756252800
+2025-08-27 12:00:01,726 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:01,726 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:01,726 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:01,726 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:01,726 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,726 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:01,828 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:01,828 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:01,828 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:01,840 [INFO] data_collector:93: get_options_chain() Successfully retrieved 177 options contracts for SPY
+2025-08-27 12:00:01,848 [INFO] data_collector:198: get_full_analysis() Analysis complete for SPY: 94 unusual activities found
+2025-08-27 12:00:01,850 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 12:00:01,850 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['QQQ', 1, 0])
+2025-08-27 12:00:01,851 [DEBUG] yfinance:89: wrapper()  Entering _fetch_ticker_tz()
+2025-08-27 12:00:01,851 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:01,851 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:01,851 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/QQQ
+2025-08-27 12:00:01,851 [DEBUG] yfinance:384: _make_request() params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-08-27 12:00:01,852 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:01,852 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:01,852 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:01,852 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:01,852 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,054 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,054 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:02,054 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:02,054 [DEBUG] yfinance:94: wrapper()  Exiting _fetch_ticker_tz()
+2025-08-27 12:00:02,054 [DEBUG] peewee:3319: execute_sql() ('BEGIN', None)
+2025-08-27 12:00:02,055 [DEBUG] peewee:3319: execute_sql() ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['QQQ', 'America/New_York'])
+2025-08-27 12:00:02,064 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 12:00:02,065 [DEBUG] yfinance:196: history() QQQ: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:02,065 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:02,065 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:02,066 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/QQQ
+2025-08-27 12:00:02,066 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:02,066 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,066 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,066 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,067 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,067 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,067 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,173 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,173 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:02,173 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:02,175 [DEBUG] yfinance:312: history() QQQ: yfinance received OHLC data: 2025-08-27 13:30:00 -> 2025-08-27 16:00:00
+2025-08-27 12:00:02,181 [DEBUG] yfinance:349: history() QQQ: OHLC after cleaning: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,184 [DEBUG] yfinance:437: history() QQQ: OHLC after combining events: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,190 [DEBUG] yfinance:517: history() QQQ: yfinance returning OHLC: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,190 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 12:00:02,190 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 12:00:02,190 [INFO] data_collector:107: get_stock_price() Current price for QQQ: $573.59
+2025-08-27 12:00:02,191 [INFO] data_collector:49: get_options_chain() Fetching options data for QQQ
+2025-08-27 12:00:02,191 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/QQQ
+2025-08-27 12:00:02,192 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:02,192 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,192 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,192 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,192 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,192 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,313 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,313 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:02,314 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:02,316 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:02,316 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:02,316 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/QQQ?date=1756252800
+2025-08-27 12:00:02,316 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:02,316 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,316 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,317 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,317 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,317 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,317 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,450 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,450 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:02,451 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:02,465 [INFO] data_collector:93: get_options_chain() Successfully retrieved 163 options contracts for QQQ
+2025-08-27 12:00:02,507 [INFO] data_collector:198: get_full_analysis() Analysis complete for QQQ: 94 unusual activities found
+2025-08-27 12:00:02,508 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 12:00:02,509 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['IWM', 1, 0])
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()  Entering _fetch_ticker_tz()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/IWM
+2025-08-27 12:00:02,510 [DEBUG] yfinance:384: _make_request() params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:02,510 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,511 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:02,511 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:02,511 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,511 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:02,511 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,511 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,631 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,632 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:02,632 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:02,632 [DEBUG] yfinance:94: wrapper()  Exiting _fetch_ticker_tz()
+2025-08-27 12:00:02,633 [DEBUG] peewee:3319: execute_sql() ('BEGIN', None)
+2025-08-27 12:00:02,633 [DEBUG] peewee:3319: execute_sql() ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['IWM', 'America/New_York'])
+2025-08-27 12:00:02,643 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 12:00:02,644 [DEBUG] yfinance:196: history() IWM: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:02,644 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:02,644 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:02,644 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/IWM
+2025-08-27 12:00:02,644 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:02,644 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,645 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,645 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,645 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,645 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,733 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,733 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:02,733 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:02,735 [DEBUG] yfinance:312: history() IWM: yfinance received OHLC data: 2025-08-27 13:30:00 -> 2025-08-27 16:00:00
+2025-08-27 12:00:02,742 [DEBUG] yfinance:349: history() IWM: OHLC after cleaning: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,745 [DEBUG] yfinance:437: history() IWM: OHLC after combining events: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,753 [DEBUG] yfinance:517: history() IWM: yfinance returning OHLC: 2025-08-27 09:30:00-04:00 -> 2025-08-27 12:00:00-04:00
+2025-08-27 12:00:02,753 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 12:00:02,753 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 12:00:02,753 [INFO] data_collector:107: get_stock_price() Current price for IWM: $235.52
+2025-08-27 12:00:02,754 [INFO] data_collector:49: get_options_chain() Fetching options data for IWM
+2025-08-27 12:00:02,754 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/IWM
+2025-08-27 12:00:02,755 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:02,755 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,755 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,755 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:02,755 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,755 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:02,756 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,756 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,851 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,851 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:02,851 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:02,853 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:02,853 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:02,853 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/IWM?date=1756252800
+2025-08-27 12:00:02,853 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:02,853 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,853 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,853 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,854 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,854 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,854 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:02,960 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:02,961 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:02,961 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:02,972 [INFO] data_collector:93: get_options_chain() Successfully retrieved 114 options contracts for IWM
+2025-08-27 12:00:02,977 [INFO] data_collector:198: get_full_analysis() Analysis complete for IWM: 52 unusual activities found
+2025-08-27 12:00:02,979 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 12:00:02,979 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['VIX', 1, 0])
+2025-08-27 12:00:02,980 [DEBUG] yfinance:89: wrapper()  Entering _fetch_ticker_tz()
+2025-08-27 12:00:02,980 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/VIX
+2025-08-27 12:00:02,981 [DEBUG] yfinance:384: _make_request() params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-08-27 12:00:02,981 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:02,981 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:02,981 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:02,981 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:02,981 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:02,982 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:02,982 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:03,063 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:03,064 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:03,064 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:03,064 [DEBUG] yfinance:94: wrapper()  Exiting _fetch_ticker_tz()
+2025-08-27 12:00:03,064 [DEBUG] peewee:3319: execute_sql() ('BEGIN', None)
+2025-08-27 12:00:03,064 [DEBUG] peewee:3319: execute_sql() ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['VIX', 'America/New_York'])
+2025-08-27 12:00:03,073 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 12:00:03,073 [DEBUG] yfinance:196: history() VIX: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:03,073 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:03,073 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:03,073 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/VIX
+2025-08-27 12:00:03,073 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:03,073 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:03,073 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:03,074 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:03,074 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:03,074 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:03,074 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:03,146 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:03,146 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:03,146 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:03,147 [ERROR] yfinance:281: history() $VIX: possibly delisted; no price data found  (period=1d)
+2025-08-27 12:00:03,148 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 12:00:03,148 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 12:00:03,148 [INFO] data_collector:49: get_options_chain() Fetching options data for VIX
+2025-08-27 12:00:03,149 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:03,149 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:03,149 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/VIX
+2025-08-27 12:00:03,149 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:03,149 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:03,149 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:03,150 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:03,150 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:03,150 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:03,150 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:03,277 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:03,278 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:03,278 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:03,278 [WARNING] data_collector:55: get_options_chain() No options available for VIX
+2025-08-27 12:00:39,130 [DEBUG] yfinance:89: wrapper() Entering history()
+2025-08-27 12:00:39,130 [DEBUG] peewee:3319: execute_sql() ('SELECT "t1"."key", "t1"."value" FROM "_tz_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['ASML', 1, 0])
+2025-08-27 12:00:39,131 [DEBUG] yfinance:89: wrapper()  Entering _fetch_ticker_tz()
+2025-08-27 12:00:39,131 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:39,131 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:39,131 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/ASML
+2025-08-27 12:00:39,131 [DEBUG] yfinance:384: _make_request() params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2025-08-27 12:00:39,132 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:39,132 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:39,132 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:39,132 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,132 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:39,248 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:39,248 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:39,248 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:39,248 [DEBUG] yfinance:94: wrapper()  Exiting _fetch_ticker_tz()
+2025-08-27 12:00:39,248 [DEBUG] peewee:3319: execute_sql() ('BEGIN', None)
+2025-08-27 12:00:39,249 [DEBUG] peewee:3319: execute_sql() ('INSERT INTO "_tz_kv" ("key", "value") VALUES (?, ?)', ['ASML', 'America/New_York'])
+2025-08-27 12:00:39,257 [DEBUG] yfinance:89: wrapper()  Entering history()
+2025-08-27 12:00:39,258 [DEBUG] yfinance:196: history() ASML: Yahoo GET parameters: {'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:39,258 [DEBUG] yfinance:89: wrapper()   Entering get()
+2025-08-27 12:00:39,258 [DEBUG] yfinance:89: wrapper()    Entering _make_request()
+2025-08-27 12:00:39,258 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v8/finance/chart/ASML
+2025-08-27 12:00:39,258 [DEBUG] yfinance:384: _make_request() params={'range': '1d', 'interval': '5m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2025-08-27 12:00:39,258 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_and_crumb()
+2025-08-27 12:00:39,259 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:39,259 [DEBUG] yfinance:89: wrapper()      Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,259 [DEBUG] yfinance:89: wrapper()       Entering _get_cookie_basic()
+2025-08-27 12:00:39,259 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:39,259 [DEBUG] yfinance:94: wrapper()       Exiting _get_cookie_basic()
+2025-08-27 12:00:39,259 [DEBUG] yfinance:89: wrapper()       Entering _get_crumb_basic()
+2025-08-27 12:00:39,260 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:39,260 [DEBUG] yfinance:94: wrapper()       Exiting _get_crumb_basic()
+2025-08-27 12:00:39,260 [DEBUG] yfinance:94: wrapper()      Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,260 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:39,353 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:39,353 [DEBUG] yfinance:94: wrapper()    Exiting _make_request()
+2025-08-27 12:00:39,353 [DEBUG] yfinance:94: wrapper()   Exiting get()
+2025-08-27 12:00:39,355 [DEBUG] yfinance:312: history() ASML: yfinance received OHLC data: 2025-08-27 13:30:00 -> 2025-08-27 15:59:25
+2025-08-27 12:00:39,362 [DEBUG] yfinance:349: history() ASML: OHLC after cleaning: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:59:25-04:00
+2025-08-27 12:00:39,366 [DEBUG] yfinance:437: history() ASML: OHLC after combining events: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:59:25-04:00
+2025-08-27 12:00:39,375 [DEBUG] yfinance:517: history() ASML: yfinance returning OHLC: 2025-08-27 09:30:00-04:00 -> 2025-08-27 11:55:00-04:00
+2025-08-27 12:00:39,375 [DEBUG] yfinance:94: wrapper()  Exiting history()
+2025-08-27 12:00:39,375 [DEBUG] yfinance:94: wrapper() Exiting history()
+2025-08-27 12:00:39,375 [INFO] data_collector:107: get_stock_price() Current price for ASML: $768.00
+2025-08-27 12:00:39,376 [INFO] data_collector:49: get_options_chain() Fetching options data for ASML
+2025-08-27 12:00:39,376 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:39,376 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:39,376 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/ASML
+2025-08-27 12:00:39,376 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:39,376 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:39,377 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:39,377 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:39,377 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,377 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:39,491 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:39,491 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:39,491 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:39,493 [DEBUG] yfinance:89: wrapper() Entering get()
+2025-08-27 12:00:39,493 [DEBUG] yfinance:89: wrapper()  Entering _make_request()
+2025-08-27 12:00:39,493 [DEBUG] yfinance:383: _make_request() url=https://query2.finance.yahoo.com/v7/finance/options/ASML?date=1756425600
+2025-08-27 12:00:39,493 [DEBUG] yfinance:384: _make_request() params=None
+2025-08-27 12:00:39,494 [DEBUG] yfinance:89: wrapper()   Entering _get_cookie_and_crumb()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:349: _get_cookie_and_crumb() cookie_mode = 'basic'
+2025-08-27 12:00:39,494 [DEBUG] yfinance:89: wrapper()    Entering _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:89: wrapper()     Entering _get_cookie_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:187: _get_cookie_basic() reusing cookie
+2025-08-27 12:00:39,494 [DEBUG] yfinance:94: wrapper()     Exiting _get_cookie_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:89: wrapper()     Entering _get_crumb_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:209: _get_crumb_basic() reusing crumb
+2025-08-27 12:00:39,494 [DEBUG] yfinance:94: wrapper()     Exiting _get_crumb_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:94: wrapper()    Exiting _get_cookie_and_crumb_basic()
+2025-08-27 12:00:39,494 [DEBUG] yfinance:94: wrapper()   Exiting _get_cookie_and_crumb()
+2025-08-27 12:00:39,678 [DEBUG] yfinance:407: _make_request() response code=200
+2025-08-27 12:00:39,678 [DEBUG] yfinance:94: wrapper()  Exiting _make_request()
+2025-08-27 12:00:39,678 [DEBUG] yfinance:94: wrapper() Exiting get()
+2025-08-27 12:00:39,689 [INFO] data_collector:93: get_options_chain() Successfully retrieved 157 options contracts for ASML
+2025-08-27 12:00:39,698 [INFO] data_collector:198: get_full_analysis() Analysis complete for ASML: 48 unusual activities found
