@@ -1,0 +1,10 @@
+2025-08-26 22:27:57,134 - data_collector - INFO - Current price for AAPL: $229.30
+2025-08-26 22:27:57,134 - data_collector - INFO - Fetching options data for AAPL
+2025-08-26 22:27:57,315 - data_collector - INFO - Successfully retrieved 103 options contracts for AAPL
+2025-08-26 22:27:57,319 - data_collector - INFO - Analysis complete for AAPL: 46 unusual activities found
+2025-08-26 22:27:57,326 - data_collector - INFO - Data saved to data\aapl_analysis_20250826_222757.csv
+2025-08-26 22:29:47,196 - data_collector - INFO - Current price for CMG: $42.52
+2025-08-26 22:29:47,197 - data_collector - INFO - Fetching options data for CMG
+2025-08-26 22:29:47,387 - data_collector - INFO - Successfully retrieved 85 options contracts for CMG
+2025-08-26 22:29:47,392 - data_collector - INFO - Analysis complete for CMG: 33 unusual activities found
+2025-08-26 22:29:47,402 - data_collector - INFO - Data saved to data\cmg_analysis_20250826_222947.csv
