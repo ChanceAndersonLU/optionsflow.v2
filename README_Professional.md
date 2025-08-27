@@ -1,8 +1,8 @@
-\# 🚀 Professional Options Flow Analyzer
+Professional Options Flow Analyzer
 
 
 
-> \*\*Advanced institutional-grade options flow monitoring system with real-time analytics, Greeks calculations, and professional dashboard\*\*
+Advanced institutional-grade options flow monitoring system with real-time analytics, Greeks calculations, and professional dashboard
 
 
 
@@ -14,71 +14,71 @@
 
 
 
-\## 🌟 Features
+ Features
 
 
 
-\### 📊 \*\*Core Analytics Engine\*\*
+Core Analytics Engine
 
-\- \*\*Real-time Options Data Collection\*\* - Multi-source data aggregation
+Real-time Options Data Collection - Multi-source data aggregation
 
-\- \*\*Advanced Greeks Calculations\*\* - Delta, Gamma, Theta, Vega, Rho
+Advanced Greeks Calculations - Delta, Gamma, Theta, Vega, Rho
 
-\- \*\*Implied Volatility Analysis\*\* - IV surface modeling and skew detection
+Implied Volatility Analysis - IV surface modeling and skew detection
 
-\- \*\*Max Pain Calculation\*\* - Options expiration pressure points
+Max Pain Calculation - Options expiration pressure points
 
-\- \*\*Put/Call Ratio Analysis\*\* - Market sentiment indicators
-
-
-
-\### 🏛️ \*\*Institutional Flow Detection\*\*
-
-\- \*\*Block Trade Identification\*\* - Large institutional transactions
-
-\- \*\*Sweep Detection\*\* - Multi-exchange aggressive orders
-
-\- \*\*Dark Pool Activity\*\* - Hidden liquidity analysis
-
-\- \*\*Whale Activity Tracking\*\* - $1M+ premium transactions
-
-\- \*\*Smart Money Flow Classification\*\* - Retail vs Institutional
+Put/Call Ratio Analysis - Market sentiment indicators
 
 
 
-\### 📈 \*\*Professional Dashboard\*\*
+Institutional Flow Detection
 
-\- \*\*Real-time Web Interface\*\* - Modern, responsive design
+Block Trade Identification - Large institutional transactions
 
-\- \*\*Interactive Charts\*\* - Plotly-powered visualizations
+Sweep Detection- Multi-exchange aggressive orders
 
-\- \*\*Flow Heatmaps\*\* - Premium distribution analysis
+Dark Pool Activity - Hidden liquidity analysis
 
-\- \*\*Live Data Tables\*\* - Sortable, filterable options flow
+Whale Activity Tracking - $1M+ premium transactions
 
-\- \*\*Custom Alerts\*\* - Configurable thresholds and notifications
-
-
-
-\### 🔬 \*\*Advanced Analytics\*\*
-
-\- \*\*Volatility Surface Analysis\*\* - 3D IV modeling
-
-\- \*\*Multi-Strike Strategies\*\* - Complex position detection
-
-\- \*\*Time Decay Analysis\*\* - Theta exposure calculations
-
-\- \*\*Risk Metrics\*\* - Portfolio Greeks and exposures
-
-\- \*\*Sentiment Scoring\*\* - Algorithmic market sentiment
+Smart Money Flow Classification - Retail vs Institutional
 
 
 
-\## 🚀 Quick Start
+Professional Dashboard
+
+Real-time Web Interface- Modern, responsive design
+
+Interactive Charts- Plotly-powered visualizations
+
+Flow Heatmaps - Premium distribution analysis
+
+Live Data Tables - Sortable, filterable options flow
+
+Custom Alerts - Configurable thresholds and notifications
 
 
 
-\### Installation
+Advanced Analytics
+
+Volatility Surface Analysis - 3D IV modeling
+
+Multi-Strike Strategies - Complex position detection
+
+Time Decay Analysis - Theta exposure calculations
+
+Risk Metrics- Portfolio Greeks and exposures
+
+Sentiment Scoring - Algorithmic market sentiment
+
+
+
+ Quick Start
+
+
+
+ Installation
 
 
 
@@ -156,7 +156,7 @@ python main\_professional.py -s AAPL
 
 
 
-\#### 🌐 \*\*Launch Web Dashboard\*\*
+\####  \*\*Launch Web Dashboard\*\*
 
 ```bash
 
@@ -168,7 +168,7 @@ Then open: http://localhost:8050
 
 
 
-\#### 📋 \*\*Generate Professional Report\*\*
+\####  \*\*Generate Professional Report\*\*
 
 ```bash
 
@@ -178,7 +178,7 @@ python main\_professional.py -r TSLA
 
 
 
-\#### 📊 \*\*Multi-Symbol Screening\*\*
+\####  \*\*Multi-Symbol Screening\*\*
 
 ```bash
 
@@ -188,7 +188,7 @@ python main\_professional.py -sc
 
 
 
-\#### 🎮 \*\*Interactive CLI\*\*
+\####  \*\*Interactive CLI\*\*
 
 ```bash
 
@@ -198,7 +198,7 @@ python main\_professional.py
 
 
 
-\## 📁 Project Structure
+\##  Project Structure
 
 
 
